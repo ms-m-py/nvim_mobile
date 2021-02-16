@@ -1,0 +1,10 @@
+import os
+os.system("pkg install neovim")
+os.system("mkdir -p ~/.config/nvim/autoload")
+os.system("curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim")
+os.system("apt install git curl ack-grep")
+os.system("pip3 install pynvim flake8 pylint isort")
+os.system("pip3 install jedi")
+os.system("cp ./init.vim ~/.config/nvim")
+os.system("pip install pynvim")
+os.system("nvim +PlugInstall")
