@@ -14,3 +14,6 @@ cd nvim_mobile
 python3 ide.py
 
 منتظر باشد تا مراحل نصب انجام شود  زمان میبرد
+
+
+telegram_channel:https://t.me/Python_MBH
